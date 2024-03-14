@@ -50,7 +50,7 @@ nav {
 }
 
     .cards-container {
-        width: 80%;
+        width: 90%;
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
@@ -60,8 +60,8 @@ nav {
 
     .img-card {
         background-color: cornflowerblue;
-        width: 40vmin;
-        height: 60vmin;
+        width: 50vmin;
+        height: 70vmin;
     }
 
         .img-card:nth-child(3) {
