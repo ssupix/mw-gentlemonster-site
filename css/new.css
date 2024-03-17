@@ -9,6 +9,7 @@ nav {
     justify-content: center;
     align-items: center;
     position: fixed;
+    top: 0;
 }
 
 
@@ -44,9 +45,35 @@ nav {
         }
 
 
-.collection-selection {
-
+.collection-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 200px 0 200px 0;
 }
+
+    .content-wrap {
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+        .collection-card {
+            width: 60vmin;
+            height: 65vmin;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: left;
+        }
+            .collection-card .img {
+                min-width: 90%;
+                height: 90%;
+                background-color: cornflowerblue;
+            }
+
 
 
 .card-section {
