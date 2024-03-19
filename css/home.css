@@ -122,7 +122,7 @@ nav {
     justify-content: center;
     align-items: center;
     height: 70vh;
-    gap: 200px;
+    gap: 500px;
 }
 
     .service-item {
@@ -131,8 +131,7 @@ nav {
         justify-content: space-between;
         text-align: center;
         align-items: center;
-        padding: 20px;
-        width: 30%;
+        width: 20%;
         height: 40%;
     }
         .service-item p {
