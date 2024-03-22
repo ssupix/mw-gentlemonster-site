@@ -1,1 +1,47 @@
 
+h1 {
+    font-size: 4vmin;
+}
+
+h6 {
+    font-size: 1.5vmin;
+}
+
+h5 {
+    font-size: 1.8vmin;
+}
+
+p {
+    font-size: 1.5vmin;
+}
+
+a {
+    font-size: 2vmin;
+}
+
+h3 {
+    font-size: 2.2vmin;
+}
+
+
+@media (max-width:500px) {
+    h1 {
+        font-size: 4vmin;
+    }
+
+    h6 {
+        font-size: 2.8vmin;
+    }
+
+    p {
+        font-size: 2.2vmin;
+    }
+
+    a {
+        font-size: 3vmin;
+    }
+
+    h3 {
+        font-size: 3vmin;
+    }
+}
