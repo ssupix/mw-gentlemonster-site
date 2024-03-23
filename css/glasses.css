@@ -9,6 +9,7 @@
     height: 90vh;          
     width: 100%;
     background-color: cornflowerblue;
+    z-index: -1;
 }
         
     video {
