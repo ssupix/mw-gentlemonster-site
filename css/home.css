@@ -66,17 +66,10 @@
         justify-content: space-between;
     }
 
-    .intro-text p {
-        font-size: 1.5vmin;
-    }
-
     .intro-text a {
         color: black;
         font-size: 2vmin;
     }
-
-
-
 
 
 .video-block {

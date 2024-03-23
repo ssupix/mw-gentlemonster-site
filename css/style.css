@@ -64,14 +64,14 @@
 @media (max-width: 1700px) {
     .img-card {
         width: 450px;
-        height: 55vmin;
+        height: 65vmin;
     }
 }
 
 @media (max-width: 1700px) {
     .img-card {
         width: 400px;
-        height: 45vmin;
+        height: 65vmin;
     }
 }
 
