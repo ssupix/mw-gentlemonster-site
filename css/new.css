@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
 }
+
+
 .collection-section {
     display: flex;
     justify-content: center;
@@ -12,14 +14,16 @@
     .content-wrap {
         width: 90%;
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         flex-wrap: wrap;
-        gap: 0 14%;
+        gap: 10px;
     }
 
         .collection-card {
             width: 70vmin;
             height: 75vmin;
+            min-width: 600px;
+            min-height: 600px;
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -32,12 +36,10 @@
             }
 
 
-
 .card-section {
     width: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
     .card-container {
@@ -49,38 +51,45 @@
     }
 
         .card {
-            height: 500px;
-            width: 400px;
+            height: 50vmin;
+            width: 40vmin;
+            min-height: 500px;
+            min-width: 300px;
             display: flex;
-            margin-bottom: 10px;
             flex-direction: column;
-            /* margin: 0;
-            padding: 0; */
-            }
-
-            .card img{
-                height: 90%;
-                width: 100%;
-                background-color: rgb(180, 237, 100);
-            }
-
-            .card .item-description {
-                display: flex;
-                flex-direction: column;
-                justify-content: flex-start;
-            }
-
-@media (max-width: 1000px) {
-    
-    .card {
-        height: 400px;
-        width: 300px;
-        display: flex;
-        margin-bottom: 10px;
-        flex-direction: column;
-        /* margin: 0;
-        padding: 0; */
+            gap: 10px;
         }
+
+        .card img{
+            height: 70%;
+            width: 100%;
+            background-color: rgb(180, 237, 100);
+        }
+
+
+@media (max-width: 2190px) {
+
+    .content-wrap {
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
 }
 
+@media (max-width: 850px) {
+    .collection-card {
+        min-width: 400px;
+        min-height: 400px;
+    }
+}
 
+@media (max-width: 500px) {
+    .collection-card {
+        min-width: 300px;
+        min-height: 300px;
+    }
+}
+
+       

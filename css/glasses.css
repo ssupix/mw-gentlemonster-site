@@ -52,6 +52,8 @@
         .card {
             height: 50vmin;
             width: 40vmin;
+            min-height: 500px;
+            min-width: 300px;
             display: flex;
             flex-direction: column;
             gap: 10px;
@@ -64,4 +66,27 @@
         }
 
 
+@media (max-width: 850px) {
+
+    .filter-container {
+        gap: 20px;
+    }
+
+    .filter {
+        height: 70px;
+        width: 70px;  
+    }
+}
+
+@media (max-width: 600px) {
+
+    .filter-container {
+        gap: 10px;
+    }
+
+    .filter {
+        height: 50px;
+        width: 50px;     
+    }
+}
 
