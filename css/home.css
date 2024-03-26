@@ -54,9 +54,14 @@
     .intro-video {
         width: 65%;
         height: 50vmin;
-        background-color: cornflowerblue;
+        background-color: rgb(255, 255, 255);
         margin-right: 1%;
+        
     }
+
+        .intro-video video{
+            height: 100%;
+        }
 
     .intro-text {
         width: 25%;
