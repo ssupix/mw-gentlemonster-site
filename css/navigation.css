@@ -166,6 +166,10 @@ footer ul {
         margin-bottom: 30px;
     }
 
+    footer .logo img {
+        width: 100%;
+    }
+
   
 @media (max-width: 1050px) {
     .nav-content ul {
