@@ -44,7 +44,6 @@
 
            
 
-            
 
 
 
@@ -52,6 +51,7 @@
     width: 100%;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
     .card-container {
@@ -70,13 +70,27 @@
             display: flex;
             flex-direction: column;
             gap: 10px;
+            overflow-y: hidden;
         }
 
-        .card img{
+        .card .price {
+            color: grey;
+        }
+
+        .card .img{
             height: 70%;
             width: 100%;
-            background-color: rgb(180, 237, 100);
+            overflow: hidden;
         }
+
+        .card .img img{
+            height: auto;
+            width: 100%;
+        }
+
+
+
+
 
 
 @media (max-width: 2190px) {

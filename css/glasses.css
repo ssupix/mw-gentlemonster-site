@@ -5,15 +5,12 @@
 
 
 .video-block {
-    display: flex;
     height: 90vh;          
     width: 100%;
-    background-color: cornflowerblue;
     z-index: -1;
 }
         
-    video {
-        height: 100%;
+    .video-block video{
         width: 100%;
     }
 
@@ -59,6 +56,10 @@
             flex-direction: column;
             gap: 10px;
             overflow-y: hidden;
+        }
+
+        .card .price {
+            color: grey;
         }
 
         .card .img{
