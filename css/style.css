@@ -25,19 +25,50 @@
         background-color: cornflowerblue;
         width: 600px;
         height: 70vmin;
+        background-size: cover;
     }
 
+        .img-card:nth-child(1) {
+            background-image: url(../media/imgs/s1.avif);
+        }
+        .img-card:nth-child(2) {
+            background-color: white;
+            background-image: url(../media/imgs/s2.avif);
+        }
         .img-card:nth-child(3) {
             background-color: white;
+        }
+        .img-card:nth-child(4) {
+            background-image: url(../media/imgs/s3.avif);
         }
         .img-card:nth-child(5) {
             background-color: white;
         }
+        .img-card:nth-child(6) {
+            background-image: url(../media/imgs/s4.avif);
+        }
+        .img-card:nth-child(7) {
+            background-color: white;
+            background-image: url(../media/imgs/s5.avif);
+        }
         .img-card:nth-child(8) {
             background-color: white;
         }
+        .img-card:nth-child(9) {
+            background-image: url(../media/imgs/s6.avif);
+        }
         .img-card:nth-child(10) {
             background-color: white;
+        }
+        .img-card:nth-child(11) {
+            background-image: url(../media/imgs/s7.avif);
+        }
+        .img-card:nth-child(12) {
+            background-color: white;
+            background-image: url(../media/imgs/s8.avif);
+        }
+        .img-card:nth-child(13) {
+            background-image: url(../media/imgs/s9.avif);
         }
         .img-card:nth-child(14) {
             background-color: white;
@@ -48,8 +79,20 @@
         .img-card:nth-child(16) {
             background-color: white;
         }
+        .img-card:nth-child(17) {
+            background-image: url(../media/imgs/s10.avif);
+        }
+        .img-card:nth-child(18) {
+            background-image: url(../media/imgs/s11.avif);
+        }
         .img-card:nth-child(19) {
             background-color: white;
+        }
+        .img-card:nth-child(20) {
+            background-image: url(../media/imgs/s12.avif);
+        }
+        .img-card:nth-child(21) {
+            background-image: url(../media/imgs/s13.avif);
         }
 
 
