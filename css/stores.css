@@ -4,6 +4,8 @@
 }
 
 
+
+
 .content-section-1 {
     height: 70vh;
     margin-top: 200px;
@@ -21,7 +23,8 @@
         .s1-img {
             height: 50vmin;
             width: 70%;
-            background-color: cornflowerblue;
+            background-image: url(../media/imgs/singapore.avif);
+            background-size: cover;
             /* margin-bottom: 30px; */
         }
 
@@ -62,7 +65,8 @@
         .s2-img {
             height: 50vmin;
             width: 50%;
-            background-color: cornflowerblue;
+            background-image: url(../media/imgs/japan.avif);
+            background-size: cover;
 
         }
 
@@ -114,8 +118,18 @@
             .s3-img {
                 padding-top:30%;
                 width: 50%;
-                background-color: cornflowerblue;
             }
+
+            .s3-img:nth-child(1) {
+               background-image: url(../media/imgs/uae.avif);
+               background-size: cover;
+            }
+
+            .s3-img:nth-child(2) {
+                background-image: url(../media/imgs/uae2.avif);
+                background-size: cover;
+             }
+ 
 
         .s3-text {
             display: flex;
@@ -155,9 +169,9 @@
         .s4-img {
             height: 50vmin;
             width: 70%;
-            background-color: cornflowerblue;
             align-self: flex-end;
-            /* margin-bottom: 30px; */
+            background-image: url(../media/imgs/china.avif);
+            background-size: cover;
         }
 
         .s4-text {
@@ -172,6 +186,7 @@
 
             .s4-text .sub-heading {
                 text-align: right;
+                margin-top: 100px;
             }
 
             .s4-text .par {
@@ -197,7 +212,8 @@
         .s5-img {
             height: 50vmin;
             width: 50%;
-            background-color: cornflowerblue;
+            background-image: url(../media/imgs/korea보정본.jpeg);
+            background-size: cover;
 
         }
 
@@ -261,7 +277,7 @@
 
     .content-section-3 {
         height: 50vh;
-        margin-bottom: 300px;
+        margin-bottom: 200px;
     }
 
     .content-section-4 {
