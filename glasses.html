@@ -46,17 +46,17 @@
     </div>
 
     <div class="filter-container">
-        <div class="filter"><p>All</p></div>
-        <div class="filter"><p>Metal</p></div>
-        <div class="filter"><p>Blue Light</p></div>
-        <div class="filter"><p>UV Protection</p></div>
-        <div class="filter"><p>Prescription</p></div>
-        <div class="filter"><p>Best Sellers</p></div>
+        <div class="filter" data-filter="*"><p>All</p></div>
+        <div class="filter" data-filter=".metal"><p>Metal</p></div>
+        <div class="filter" data-filter=".blue-light"><p>Blue Light</p></div>
+        <div class="filter" data-filter=".uv-protection"><p>UV Protection</p></div>
+        <div class="filter" data-filter=".prescription"><p>Prescription</p></div>
+        <div class="filter" data-filter=".best-sellers"><p>Best Sellers</p></div>
     </div>
 
     <div class="card-section">
         <div class="card-container">
-            <div class="card">
+            <div class="card uv-protection">
                 <div class="img">
                     <img src="./media/imgs/1.png" alt="glasses">
                 </div>
@@ -64,7 +64,7 @@
                 <h5 class="price">USD$ 450</h5>
                 <a href="#">See More</a>
             </div>
-            <div class="card">
+            <div class="card uv-protection">
                 <div class="img">
                     <img src="./media/imgs/2.png" alt="glasses">
                 </div>
@@ -72,7 +72,7 @@
                 <h5 class="price">USD$ 450</h5>
                 <a href="#">See More</a>
             </div>
-            <div class="card">
+            <div class="card best-sellers">
                 <div class="img">
                     <img src="./media/imgs/3.png" alt="glasses">
                 </div>
@@ -80,7 +80,7 @@
                 <h5 class="price">USD$ 450</h5>
                 <a href="#">See More</a>
             </div>
-            <div class="card">
+            <div class="card blue-light">
                 <div class="img">
                     <img src="./media/imgs/4.png" alt="glasses">
                 </div>
@@ -88,7 +88,7 @@
                 <h5 class="price">USD$ 450</h5>
                 <a href="#">See More</a>
             </div>
-            <div class="card">
+            <div class="card best-sellers">
                 <div class="img">
                     <img src="./media/imgs/5.png" alt="glasses">
                 </div>
@@ -96,7 +96,7 @@
                 <h5 class="price">USD$ 450</h5>
                 <a href="#">See More</a>
             </div>
-            <div class="card">
+            <div class="card blue-light">
                 <div class="img">
                     <img src="./media/imgs/6.png" alt="glasses">
                 </div>
@@ -104,7 +104,7 @@
                 <h5 class="price">USD$ 450</h5>
                 <a href="#">See More</a>
             </div>
-            <div class="card">
+            <div class="card best-sellers">
                 <div class="img">
                     <img src="./media/imgs/7.png" alt="glasses">
                 </div>
@@ -112,7 +112,7 @@
                 <h5 class="price">USD$ 450</h5>
                 <a href="#">See More</a>
             </div>
-            <div class="card">
+            <div class="card prescription">
                 <div class="img">
                     <img src="./media/imgs/8.png" alt="glasses">
                 </div>
@@ -120,7 +120,7 @@
                 <h5 class="price">USD$ 450</h5>
                 <a href="#">See More</a>
             </div>
-            <div class="card">
+            <div class="card metal">
                 <div class="img">
                     <img src="./media/imgs/9.png" alt="glasses">
                 </div>
@@ -128,7 +128,7 @@
                 <h5 class="price">USD$ 450</h5>
                 <a href="#">See More</a>
             </div>
-            <div class="card">
+            <div class="card metal">
                 <div class="img">
                     <img src="./media/imgs/10.png" alt="glasses">
                 </div>
@@ -136,7 +136,7 @@
                 <h5 class="price">USD$ 450</h5>
                 <a href="#">See More</a>
             </div>
-            <div class="card">
+            <div class="card metal">
                 <div class="img">
                     <img src="./media/imgs/11.png" alt="glasses">
                 </div>
@@ -144,7 +144,7 @@
                 <h5 class="price">USD$ 450</h5>
                 <a href="#">See More</a>
             </div>
-            <div class="card">
+            <div class="card prescription">
                 <div class="img">
                     <img src="./media/imgs/12.png" alt="glasses">
                 </div>
@@ -152,7 +152,7 @@
                 <h5 class="price">USD$ 450</h5>
                 <a href="#">See More</a>
             </div>
-            <div class="card">
+            <div class="card uv-protection">
                 <div class="img">
                     <img src="./media/imgs/13.png" alt="glasses">
                 </div>
@@ -160,7 +160,7 @@
                 <<h5 class="price">USD$ 450</h5>
                 <a href="#">See More</a>
             </div>
-            <div class="card">
+            <div class="card blue-light">
                 <div class="img">
                     <img src="./media/imgs/14.png" alt="glasses">
                 </div>
@@ -168,7 +168,7 @@
                 <h5 class="price">USD$ 450</h5>
                 <a href="#">See More</a>
             </div>
-            <div class="card">
+            <div class="card blue-light">
                 <div class="img">
                     <img src="./media/imgs/15.png" alt="glasses">
                 </div>
@@ -176,7 +176,7 @@
                 <h5 class="price">USD$ 450</h5>
                 <a href="#">See More</a>
             </div>
-            <div class="card">
+            <div class="card best-sellers">
                 <div class="img">
                     <img src="./media/imgs/16.png" alt="glasses">
                 </div>
@@ -207,6 +207,11 @@
         </div>
     </footer>
 
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="./js/isotope.min.js"></script>
 <script src="./js/nav.js"></script>
+<script src="./js/filter.js"></script>
+
 </body>
 </html>
