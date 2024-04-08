@@ -26,6 +26,7 @@
         width: 600px;
         height: 70vmin;
         background-size: cover;
+        background-position: center;
     }
 
         .img-card:nth-child(1) {
@@ -68,7 +69,7 @@
             background-image: url(../media/imgs/s8.avif);
         }
         .img-card:nth-child(13) {
-            background-image: url(../media/imgs/s9.avif);
+            background-image: url(../media/imgs/s9.jpeg);
         }
         .img-card:nth-child(14) {
             background-color: white;
@@ -80,16 +81,16 @@
             background-color: white;
         }
         .img-card:nth-child(17) {
-            background-image: url(../media/imgs/s10.avif);
+            background-image: url(../media/imgs/s10.jpeg);
         }
         .img-card:nth-child(18) {
-            background-image: url(../media/imgs/s11.avif);
+            background-image: url(../media/imgs/s11.jpeg);
         }
         .img-card:nth-child(19) {
             background-color: white;
         }
         .img-card:nth-child(20) {
-            background-image: url(../media/imgs/s12.avif);
+            background-image: url(../media/imgs/s12.jpeg);
         }
         .img-card:nth-child(21) {
             background-image: url(../media/imgs/s13.avif);
