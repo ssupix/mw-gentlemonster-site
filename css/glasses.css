@@ -10,9 +10,9 @@
     z-index: -1;
 }
         
-    .video-block video{
-        width: 100%;
-    }
+.video-block video{
+    width: 100%;
+}
 
 
 .filter-container {
@@ -25,29 +25,29 @@
     gap: 30px;
 }
 
-    .filter {
-        height: 110px;
-        width: 110px;
-        border-radius: 20px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        font-weight: 700 !important;
-        background-color: rgb(20, 20, 20);
-        background-size: cover;
-        background-position: bottom;
-        padding: 10px;
-        margin: 0;
-        cursor: pointer;
-    }
+.filter {
+    height: 110px;
+    width: 110px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: 700 !important;
+    background-color: rgb(20, 20, 20);
+    background-size: cover;
+    background-position: bottom;
+    padding: 10px;
+    margin: 0;
+    cursor: pointer;
+}
 
-        .filter p {
-            font-weight: 700 !important;
-            color: rgb(255, 255, 255);
-            text-transform: uppercase;
-            font-size: 1.3vmin;
-        }
+    .filter p {
+        font-weight: 700 !important;
+        color: rgb(255, 255, 255);
+        text-transform: uppercase;
+        font-size: 1.3vmin;
+    }
 
 .card-section {
     width: 100%;
@@ -55,38 +55,38 @@
     justify-content: center;
 }
 
-    .card-container {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        width: 90%;
-    }
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 90%;
+}
 
-        .card {
-            height: 50vmin;
-            width: 35vmin;
-            min-height: 500px;
-            min-width: 300px;
-            display: flex;
-            flex-direction: column;
-            gap: 10px;
-            overflow-y: hidden;
-        }
+.card {
+    height: 50vmin;
+    width: 35vmin;
+    min-height: 500px;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    overflow-y: hidden;
+}
 
-        .card .price {
-            color: grey;
-        }
+.card .price {
+    color: grey;
+}
 
-        .card .img{
-            height: 70%;
-            width: 100%;
-            overflow: hidden;
-        }
+.card .img{
+    height: 70%;
+    width: 100%;
+    overflow: hidden;
+}
 
-        .card .img img{
-            height: auto;
-            width: 100%;
-        }
+.card .img img{
+    height: auto;
+    width: 100%;
+}
 
 
 @media (max-width: 850px) {
