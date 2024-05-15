@@ -4,6 +4,9 @@ $(document).ready(function() {
         layoutMode: 'fitRows',
         fitRows: {
             gutter: 10
+          },
+          cellsByRow: {
+            columnWidth: 100
           }
     });
 
