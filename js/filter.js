@@ -1,14 +1,14 @@
-$(document).ready(function() {
-    var $container = $('.card-container').isotope({
-        itemSelector: '.card',
-        layoutMode: 'fitRows',
-        fitRows: {
-            gutter: 10
-          },
-          cellsByRow: {
-            columnWidth: 100
-          }
-    });
+$(document).ready(function(){
+  // Initialize Isotope
+  var $grid = $('.grid').isotope({
+      itemSelector: '.grid-item',
+      percentPosition: true,
+      masonry: {
+          // Use element for columnWidth
+          columnWidth: '.grid-sizer'
+      }
+  });
+
 
     $('.filter').click(function() {
         var filterValue = $(this).attr('data-filter');

@@ -7,6 +7,26 @@
     <link rel="stylesheet" href="./css/glasses.css">
     <link rel="stylesheet" href="./css/navigation.css">
     <link rel="stylesheet" href="./css/fonts.css">
+
+    <style>
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr); 
+            gap: 10px; 
+        }
+
+        @media (max-width: 850px) {
+            .grid {
+                grid-template-columns: repeat(2, 1fr); /* 2 columns for tablet */
+            }
+        }
+
+        @media (max-width: 600px) {
+            .grid {
+                grid-template-columns: repeat(1, 1fr); /* 1 column for mobile */
+            }
+        }
+    </style>
 </head>
 <body>
 
@@ -54,8 +74,10 @@
         <div class="filter" data-filter=".best-sellers"><p>Best Sellers</p></div>
     </div>
 
-    <div class="card-section">
-        <div class="card-container">
+    <div class="card-section grid">
+        <div class="grid-sizer"></div>
+        <!-- Card items go here -->
+        <div class="grid-item">
             <div class="card uv-protection">
                 <div class="img">
                     <img src="./media/imgs/1.png" alt="glasses">
@@ -64,6 +86,8 @@
                 <h5 class="price">USD$ 480</h5>
                 <a href="#">See More</a>
             </div>
+        </div>
+        <div class="grid-item">
             <div class="card uv-protection">
                 <div class="img">
                     <img src="./media/imgs/2.png" alt="glasses">
@@ -72,6 +96,8 @@
                 <h5 class="price">USD$ 480</h5>
                 <a href="#">See More</a>
             </div>
+        </div>
+        <div class="grid-item">
             <div class="card best-sellers">
                 <div class="img">
                     <img src="./media/imgs/3.png" alt="glasses">
@@ -80,6 +106,8 @@
                 <h5 class="price">USD$ 380</h5>
                 <a href="#">See More</a>
             </div>
+        </div>
+        <div class="grid-item">
             <div class="card blue-light">
                 <div class="img">
                     <img src="./media/imgs/4.png" alt="glasses">
@@ -88,6 +116,9 @@
                 <h5 class="price">USD$ 350</h5>
                 <a href="#">See More</a>
             </div>
+        </div>
+        <!-- Repeat for other cards -->
+        <div class="grid-item">
             <div class="card best-sellers">
                 <div class="img">
                     <img src="./media/imgs/5.png" alt="glasses">
@@ -96,6 +127,8 @@
                 <h5 class="price">USD$ 350</h5>
                 <a href="#">See More</a>
             </div>
+        </div>
+        <div class="grid-item">
             <div class="card blue-light">
                 <div class="img">
                     <img src="./media/imgs/6.png" alt="glasses">
@@ -104,6 +137,8 @@
                 <h5 class="price">USD$ 350</h5>
                 <a href="#">See More</a>
             </div>
+        </div>
+        <div class="grid-item">
             <div class="card best-sellers">
                 <div class="img">
                     <img src="./media/imgs/7.png" alt="glasses">
@@ -112,6 +147,8 @@
                 <h5 class="price">USD$ 350</h5>
                 <a href="#">See More</a>
             </div>
+        </div>
+        <div class="grid-item">
             <div class="card prescription">
                 <div class="img">
                     <img src="./media/imgs/8.png" alt="glasses">
@@ -120,6 +157,8 @@
                 <h5 class="price">USD$ 350</h5>
                 <a href="#">See More</a>
             </div>
+        </div>
+        <div class="grid-item">
             <div class="card metal">
                 <div class="img">
                     <img src="./media/imgs/9.png" alt="glasses">
@@ -128,6 +167,8 @@
                 <h5 class="price">USD$ 350</h5>
                 <a href="#">See More</a>
             </div>
+        </div>
+        <div class="grid-item">
             <div class="card metal">
                 <div class="img">
                     <img src="./media/imgs/10.png" alt="glasses">
@@ -136,6 +177,8 @@
                 <h5 class="price">USD$ 330</h5>
                 <a href="#">See More</a>
             </div>
+        </div>
+        <div class="grid-item">
             <div class="card metal">
                 <div class="img">
                     <img src="./media/imgs/11.png" alt="glasses">
@@ -144,6 +187,8 @@
                 <h5 class="price">USD$ 380</h5>
                 <a href="#">See More</a>
             </div>
+        </div>
+        <div class="grid-item">
             <div class="card prescription">
                 <div class="img">
                     <img src="./media/imgs/12.png" alt="glasses">
@@ -152,6 +197,8 @@
                 <h5 class="price">USD$ 370</h5>
                 <a href="#">See More</a>
             </div>
+        </div>
+        <div class="grid-item">
             <div class="card uv-protection">
                 <div class="img">
                     <img src="./media/imgs/13.png" alt="glasses">
@@ -160,6 +207,8 @@
                 <h5 class="price">USD$ 380</h5>
                 <a href="#">See More</a>
             </div>
+        </div>
+        <div class="grid-item">
             <div class="card blue-light">
                 <div class="img">
                     <img src="./media/imgs/14.png" alt="glasses">
@@ -168,6 +217,8 @@
                 <h5 class="price">USD$ 380</h5>
                 <a href="#">See More</a>
             </div>
+        </div>
+        <div class="grid-item">
             <div class="card blue-light">
                 <div class="img">
                     <img src="./media/imgs/15.png" alt="glasses">
@@ -176,6 +227,8 @@
                 <h5 class="price">USD$ 370</h5>
                 <a href="#">See More</a>
             </div>
+        </div>
+        <div class="grid-item">
             <div class="card best-sellers">
                 <div class="img">
                     <img src="./media/imgs/16.png" alt="glasses">
@@ -183,9 +236,11 @@
                 <h5>Maison Margiela - MM114 01</h5>
                 <h5 class="price">USD$ 370</h5>
                 <a href="#">See More</a>
-            </div>  
-        </div>
+            </div>
+        </div>  
     </div>
+    
+    
 
     <footer id="myFooter">
         <div class="interactive-container">

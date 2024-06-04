@@ -65,7 +65,7 @@
 
 .card {
     height: 50vmin;
-    width: 33.333vmin;
+    width: 100%;
     min-height: 300px;
     min-width: 100px;
     display: flex;
